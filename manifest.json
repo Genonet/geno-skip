@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "じーのスキップ",
+  "version": "666.666",
+  "description": "地獄に落ちろ！！！",
+  "permissions": ["tabs","activeTab","scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
