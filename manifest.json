@@ -1,13 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "tokiスキップ",
+  "name": "genoスキップ",
   "version": "666.666",
   "description": "地獄に落ちろ！！！",
-  "permissions": [
-    "tabs",
-    "activeTab",
-    "scripting"
-  ],
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
@@ -17,7 +12,7 @@
     {
       "matches": ["*://*.www.youtube.com/*"],
       "js": [
-        "popup.js"
+        "observe.js"
       ]
     }
   ]
